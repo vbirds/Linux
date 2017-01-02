@@ -1,14 +1,15 @@
 /*************************************************************************
-	> File Name: hello.c
+	> File Name: main.c
 	> Author: 
 	> Mail: 
-	> Created Time: 2016年12月28日 星期三 00时14分01秒
+	> Created Time: 2016年12月28日 星期三 23时21分47秒
  ************************************************************************/
 
 #include<stdio.h>
+#include "hello.h"
 
 int main(void)
 {
-    printf("hello world");
+    hello("helloworld");
     return 0;
 }
